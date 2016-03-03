@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="item"
+            android:id="@+id/item"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="price"
+            android:id="@+id/price"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:text="discount"
+            android:id="@+id/discount"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:id="@+id/itemImage"
+            android:gravity="center_vertical|center_horizontal"
+             />
+    </LinearLayout>
+</RelativeLayout>

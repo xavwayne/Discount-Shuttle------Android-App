@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="200dp"
+    android:paddingTop="100dp"
+    android:paddingBottom="100dp"
+    tools:context="com.example.jiyushi1.dis.activity.customer.AboutUs"
+    android:background="@drawable/teemo"
+    android:paddingLeft="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/aboutUs">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutUs"
+            android:id="@+id/textView26"
+            android:textSize="15sp"
+            android:textColor="#ff504f52" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+        <ImageButton
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:id="@+id/btAboutUsBack"
+            android:layout_gravity="center"
+            android:src="@drawable/common_full_open_on_phone"
+            android:background="#ff999498" />
+    </LinearLayout>
+</RelativeLayout>

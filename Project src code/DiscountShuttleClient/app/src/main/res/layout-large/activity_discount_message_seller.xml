@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#f5d8f9f1"
+    tools:context="com.example.jiyushi1.dis.activity.seller.SellerDiscountManage"
+    android:id="@+id/haohaohao"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:id="@+id/lvProducts"
+        android:choiceMode="singleChoice"
+        tools:listitem="@android:layout/simple_list_item_checked"
+        android:background="#ffecffcc" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit_text"
+        android:id="@+id/btSellerProductEdit"
+         />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btAdd"
+       />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btDelete"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/backhome"
+        android:id="@+id/btSellerProductBack"
+         />
+
+</LinearLayout>
+

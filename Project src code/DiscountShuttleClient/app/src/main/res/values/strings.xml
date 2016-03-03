@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Discount Shuttle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="UserType">
+        <item>Customer</item>
+        <item>Seller</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="ItemType">
+        <item>Food</item>
+        <item>Pharmacy</item>
+        <item>Cosmetics</item>
+        <item>Drink</item>
+        <item>Clothes</item>
+    </string-array>
+
+    <string name="title_activity_customer_sign_up">CustomerSignUp</string>
+    <string name="title_activity_just_search">JustSearch</string>
+    <string name="title_activity_edit_customer_account">EditCustomerAccount</string>
+    <string name="title_activity_guest_login">GuestLogin</string>
+    <string name="title_activity_search_outcomes">SearchOutcomes</string>
+    <string name="title_activity_detail_info">DetailInfo</string>
+
+
+
+
+    <string name="Username">Username:</string>
+    <string name="Username_input_hint">input username</string>
+    <string name="Store_name">"  Store name:"</string>
+    <string name="title_activity_login_page_seller">login page for a seller</string>
+    <string name="password">Password:</string>
+    <string name="Email">Email:</string>
+    <string name="pass_retype">Retype:</string>
+    <string name="telephone">Telephone:</string>
+    <string name="person_name">Name:</string>
+    <string name="icon">Icon:</string>
+    <string name="take_photo">Take photo</string>
+    <string name="upload">Upload</string>
+    <string name="store_location">Store location:</string>
+    <string name="Current_Location">Current Location</string>
+    <string name="Icon_image">icon</string>
+    <string name="Submit">Submit</string>
+    <string name="cancle">Cancle</string>
+    <string name="title_activity_account_seller">Account setting for a seller</string>
+    <string name="title_activity_discount_message_seller">Your Discount Messages</string>
+    <string name="Store">Store</string>
+    <string name="page_num">page:n/m</string>
+    <string name="title_activity_edit_product">Edit an item</string>
+    <string name="title_activity_post_product">Post a discount message</string>
+    <string name="title_activity_password_changing">Password changing</string>
+    <string name="Edit_12">wendy12345</string>
+    <string name="hint_store_name">Special Hamburgers</string>
+    <string name="Change_key">Change</string>
+    <string name="Edit_text">Edit</string>
+    <string name="backhome">Back to Home</string>
+    <string name="product_name">Product Name:</string>
+    <string name="regular_price">Regular Price</string>
+    <string name="price_now">Price Now:</string>
+    <string name="microphone">Microphone</string>
+    <string name="introduction">Introduction:</string>
+    <string name="location">Location:</string>
+    <string name="current_location">Current Location</string>
+    <string name="submit_button">Submit</string>
+    <string name="button_cancle">Cancle</string>
+    <string name="image">Image:</string>
+    <string name="existed">existed</string>
+    <string name="upload_a_new">Upload a new</string>
+    <string name="homepage">Homapage</string>
+    <string name="usertype">User Type: Seller</string>
+    <string name="edit_button_login">Edit your discount messages</string>
+    <string name="post_button">post a new discount message</string>
+    <string name="account_button">account setting</string>
+    <string name="account_setting_button">Account settings:</string>
+    <string name="logoff_button">Log off</string>
+    <string name="password_display">Password:</string>
+    <string name="new_pass">New Password:</string>
+    <string name="retype_">Retype:</string>
+    <string name="submite_">Submit</string>
+    <string name="button_canc">Cancle</string>
+    <string name="product_">Product Name:</string>
+    <string name="regular_pr">Regular Price</string>
+    <string name="title_activity_asdasd">asdasd</string>
+    <string name="title_activity_customer_navigation">CustomerNavigation</string>
+
+    <string name="title_customer_section1">Search Item</string>
+    <string name="title_customer_section2">Edit Account</string>
+    <string name="title_customer_section3">About Us</string>
+    <string name="title_customer_section4">Help</string>
+    <string name="title_customer_section5">Change Password</string>
+
+    <string name="title_seller_section1">Main Page</string>
+    <string name="title_seller_section2">Your Account</string>
+    <string name="title_seller_section3">Post New</string>
+    <string name="title_seller_section4">Manage Post</string>
+    <string name="title_seller_section5">Change Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_seller_navigation">SellerNavigation</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="shopName">Shop name</string>
+    <string name="special">today special</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_seller_sign_up">SellerSignUp</string>
+    <string name="title_activity_sign_up_main">SignUpMain</string>
+    <string name="title_activity_guest_search_outcomes">GuestSearchOutcomes</string>
+    <string name="title_activity_guest_search_detail">GuestSearchDetail</string>
+    <string name="title_activity_seller_password">SellerPassword</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_help">Help</string>
+    <string name="aboutUs">\t\t\tABOUT US\nDiscount Shuttle is designed to collect discount information for customer they are interested in, and to build a platform for seller to attract customer.</string>
+    <string name="title_activity_mapmap">Map</string>
+    <string name="title_activity_keyyyyy">Map</string>
+</resources>

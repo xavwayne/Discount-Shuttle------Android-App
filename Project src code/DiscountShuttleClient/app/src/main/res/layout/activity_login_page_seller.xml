@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jiyushi1.dis.activity.seller.SellerMainPage"
+    android:id="@+id/sign_up"
+    android:background="#ff202824"
+    android:transitionGroup="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/ll1"
+            android:background="#f520cbf9"
+            android:layout_marginBottom="2dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/homepage"
+                android:id="@+id/textview1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textColor="#ff202824"
+                android:layout_marginLeft="0dp"
+
+                android:background="#f5d8f9f1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:gravity="right"
+                android:text="@string/usertype"
+                android:id="@+id/page_num"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textColor="#ff202824"
+                android:layout_marginRight="0dp"
+                android:background="#f5d8f9f1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f5d8f9f1"
+            android:layout_marginBottom="2dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Products List"
+                android:id="@+id/btSellerEditDiscount"
+                android:layout_marginTop="77dp"
+                android:background="#ffffde33"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post New"
+                android:id="@+id/btPostNew"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:background="#ffffde33"
+                android:layout_marginTop="10dp"
+
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setting_button"
+                android:id="@+id/textView11"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textColor="#ff202824"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:layout_marginTop="70dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#fed1f6ef">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Account"
+                android:id="@+id/btSellerAccount"
+                android:background="#ff96ff64"
+                android:textAllCaps="false"
+                android:layout_marginTop="36dp"
+                android:layout_gravity="center"
+
+                android:textSize="20dp" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logoff_button"
+                android:id="@+id/btSellerLogout"
+                android:background="#ff96ff64"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
